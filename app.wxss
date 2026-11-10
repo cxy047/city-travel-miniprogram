@@ -1,0 +1,8 @@
+/* 将原来的 #FF6B35 替换为 #FF8A9B */
+.btn-primary {
+  background: #FF8A9B;
+  color: #fff;
+  border: none;
+  border-radius: 44rpx;
+  padding: 16rpx 40rpx;
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/login/login"
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF8A9B",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_active.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search _active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my _active.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTitleText": "热门旅游城市",
+    "navigationBarBackgroundColor": "#FF8A9B",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f8f8fa"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
